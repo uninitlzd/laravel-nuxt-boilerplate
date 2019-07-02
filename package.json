@@ -1,0 +1,28 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "My shining Nuxt.js project",
+  "author": "Alfredo Eka Wibowo",
+  "private": true,
+  "scripts": {
+    "precommit": "yarn lint",
+    "test": "jest",
+    "dev": "nuxt -c client/nuxt.config.js",
+    "build": "nuxt build -c client/nuxt.config.js",
+    "start": "nuxt start -c client/nuxt.config.js",
+    "generate": "nuxt generate -c client/nuxt.config.js"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/pwa": "^2.6.0",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "@vue/test-utils": "^1.0.0-beta.27",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^24.1.0",
+    "jest": "^24.1.0",
+    "vue-jest": "^3.0.3",
+    "nodemon": "^1.18.9"
+  }
+}
